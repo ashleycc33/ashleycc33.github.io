@@ -265,7 +265,14 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 <style>
 
 .gs-section-01 h3 { 
-	body { 
+     color: red }
+
+.gs-section-01 p {
+     font-size: 30px;
+}
+	/*   HTML BODY STYLE - WHOLE SITE   */
+
+body { 
  margin-right: auto; 
  margin-left: auto; 
  width: 800px; 
@@ -275,11 +282,73 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
  padding-right: 10px;
  background-color: oldlace;
 }
-     color: red }
 
-.gs-section-01 p {
-     font-size: 30px;
+
+
+
+/*   HEADER AND NAVIGATION BAR   */
+
+header { 
+  background-color: black; 
+  height: 60px;
+  padding: 40px 0px 0px 20px;
+} 
+  
+#site-title {
+  font-size: 120%;
+  text-transform: uppercase;
+  margin: 0px 30px 0px 0px;
+}
+  
+.navbar a {
+  color: white;
+  margin: 0px 15px 0px 0px;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.65;
+}
+  
+.navbar i {
+  color: white;
+}
+
+
+
+/*   FOOTER ELEMENTS   */
+
+footer {
+  color:white;
+  height: 1100px;
+  background-color: #696969;
+  padding-top: 50px;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  text-decoration: none;
+  text-align: center;
+}
+  
+footer a {
+  color: orange;
+}
+
+.footer-list {
+	display: block;
+	text-align: left;
+	margin-left: 80px;
+	}
+	
+pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #eee;
+  width: 750px!ie7;
+  padding-bottom: 10px!ie7;
+  color: black;
+  text-align: left;
+	
 }
 
 </style>
-
