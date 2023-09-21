@@ -6,19 +6,20 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: The Most Amazing Website
 
 # Your name to show in the footer
-author: Some Person
+author: ashleycc33
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "PEDA, MS student at Arizona State University. Currently enrolled in PAF514."
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Getting Started: "getstarted"
+  Author's home: "https://github.com/ashleycc33"
 
 # --- Logo --- #
 
@@ -39,12 +40,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "acohenco@asu.edu"
+  facebook: ashleycohenconner
+  github: ashleycc33
+ # twitter: daattali
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -65,13 +66,13 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I can complete an assignment in GitHub and showcase the skills I've learned in PAF514!
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
   linkedin: true
   vk: false
@@ -100,15 +101,15 @@ post_search: true
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
+navbar-text-col: "#DAA883"
+navbar-border-col: "#FAA722"
+page-col: "#008BAAA"
+text-col: "#707773"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#BDCAA"
+footer-text-col: "#8787"
+footer-link-col: "#596aa8"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
