@@ -265,6 +265,12 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 <style>
  /*   HTML BODY STYLE - WHOLE SITE   */
 
+.gs-section-01 h3 { 
+     color: red }
+
+.gs-section-01 p {
+     font-size: 30px;
+	
 body { 
  margin-right: auto; 
  margin-left: auto; 
